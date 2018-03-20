@@ -9,13 +9,14 @@ body{
 }
 header{
   width: 100%;
-  height: 80px;
+  height: 100px;
   background-color: black;
   position: fixed;
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top:0;
 }
 .logo{
   padding-left: 30px;
@@ -46,6 +47,7 @@ background-color: black;
   background-image: url("../imagen/img-mission-background.jpg");
   height: 700px;
   padding-top: 70px;
+  margin:0 40px;
 }
 .foto-grande{
   display: flex;
@@ -80,6 +82,9 @@ padding-top: 70px;
   background-image: url("../imagen/img-locations-background.jpg");
   height: 500px;
   display: block;
+  padding-top: 50px;
+  margin: 40px 40px;
+  border: 1px;
 }
 .flex-gps{
   display: flex;
@@ -91,7 +96,7 @@ padding-top: 70px;
   background-color: black;
   width:300px;
   margin: 5px 20px;
-  padding: 10px;
+  padding: 15px 40px 0 0;
   opacity: 1;
   flex-direction: column;
   justify-content: center;
@@ -99,8 +104,9 @@ padding-top: 70px;
 
 #correo{
   display: block;
+  height: 200px;
 }
 footer{
   text-align: left;
-  margin-right: 20px;
+  padding-left: 20px;
 }
